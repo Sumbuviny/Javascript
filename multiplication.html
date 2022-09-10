@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Multiplication program </title>
+
+        <script type="text/javascript">
+            function calc(){
+                var number1; // creates variable number1
+                var number2; // creates variable number2
+                var total;  // creates variable total
+
+                number1= 10; // Assigns 10 to number1
+                number2 = 5; // Assigns 5 to number2
+
+                total = number1 * number2; // Multiplies number1 and number2
+                     
+                // displays the result
+                document.getElementById("result").innerHTML = number1 + " x " + number2 + " = " + total;
+            }
+        </script>
+    </head>
+    
+    <body>
+        <h1>Multiplication Program</h1>
+        <p id="result">Result</p>
+        <button type="button" onclick="calc()">Show Result</button>
+    </body>
+</html>
